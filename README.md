@@ -34,3 +34,9 @@ git branch -m main
 git push -f origin main
 ```
 
+## Change remote origin
+
+```bash
+git remote set-url origin new.git.url/here
+```
+
