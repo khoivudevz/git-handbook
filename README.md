@@ -40,3 +40,8 @@ git push -f origin main
 git remote set-url origin new.git.url/here
 ```
 
+## Squash commits
+
+```bash
+git rebase -i HEAD~1    // replace 1 to what commit index you want to squash
+```
