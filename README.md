@@ -5,6 +5,18 @@
 ![Logo](https://mevn-public.s3-ap-southeast-1.amazonaws.com/marketenterprise.vn/wp-images/2023/11/27145446/2color-lightbg%402x.png)
 
 
+## Add remote origin
+
+```bash
+git remote add origin new.git.url
+```
+
+## Change remote origin
+
+```bash
+git remote set-url origin new.git.url/here
+```
+
 ## Fetch branch
 
 ```bash
@@ -32,12 +44,6 @@ git commit -m "your commit"
 git branch -D main
 git branch -m main
 git push -f origin main
-```
-
-## Change remote origin
-
-```bash
-git remote set-url origin new.git.url/here
 ```
 
 ## Squash commits

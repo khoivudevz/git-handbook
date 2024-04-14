@@ -331,6 +331,10 @@ code.hljs {
             <main>
         <h1 id="git-handbook">Git handbook</h1>
 <p><img src="https://mevn-public.s3-ap-southeast-1.amazonaws.com/marketenterprise.vn/wp-images/2023/11/27145446/2color-lightbg%402x.png" alt="Logo" /></p>
+<h2 id="add-remote-origin">Add remote origin</h2>
+<pre><code class="hljs bash language-bash">git remote add origin new.git.url</code></pre>
+<h2 id="change-remote-origin">Change remote origin</h2>
+<pre><code class="hljs bash language-bash">git remote set-url origin new.git.url/here</code></pre>
 <h2 id="fetch-branch">Fetch branch</h2>
 <pre><code class="hljs bash language-bash">git checkout -b local_branch_name origin/remote_branch_name</code></pre>
 <h2 id="delete-local-branch">Delete local branch</h2>
@@ -342,8 +346,6 @@ git commit -m <span class="hljs-string">&quot;your commit&quot;</span></code></p
 <pre><code class="hljs bash language-bash">git branch -D main
 git branch -m main
 git push -f origin main</code></pre>
-<h2 id="change-remote-origin">Change remote origin</h2>
-<pre><code class="hljs bash language-bash">git remote set-url origin new.git.url/here</code></pre>
 <h2 id="squash-commits">Squash commits</h2>
 <pre><code class="hljs bash language-bash">git rebase -i HEAD~1    // replace 1 to what commit index you want to squash</code></pre>
             </main>
