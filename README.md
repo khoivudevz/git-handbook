@@ -17,6 +17,12 @@ git remote add origin new.git.url
 git remote set-url origin new.git.url/here
 ```
 
+## Fetch all branch
+
+```bash
+git fetch --all
+```
+
 ## Fetch branch
 
 ```bash
